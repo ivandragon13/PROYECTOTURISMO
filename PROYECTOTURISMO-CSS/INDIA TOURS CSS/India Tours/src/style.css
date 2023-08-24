@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+nav {
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: inicio;
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+}
+.imagenes__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.imagenes__1{
+ 
+  border: 5px white solid;
+  border-radius: 30%;
+
+}
+.imagenes__2{
+ 
+  border: 5px white solid;
+  border-radius: 30%;
+
+}
+.imagenes__3{
+ 
+  border: 5px white solid;
+  border-radius: 30%;
+
+}
+body{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: inicio;
+}
+@keyframes inicio {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.titulo__india{
+    color: red;
+}
+.descripcion__lugares{
+    color: red;
+}
+.lugar__chennai{
+    color: red;
+}
+.lugar__Goa{
+    color:red
+}
+.boton__lugares{
+    color: red;
+}
+.subtitulos__hoteles{
+    color: red;
+}
+.hotel1__radi{
+    color: red;
+}
+.hotel2__maiden{
+    color: red;
+}
+.contacots__contac{
+    color: red;
+}
+.contacto__contacto{
+    color: red;
+}
+.lugares__tours{
+    color: red;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.descripcion__chennai{
+    color: white;
+}
+.descripcion__Goa{
+    color: white;
+}
+.descripcion__hotel1{
+    color: white;
+}
+.descripcion__hotel2{
+    color: white;
+}
+ul, h2, label {
+  color: white;
+}
+.descripcion__viaje{
+    color: white;
+}
+.descripcion__mejores{
+    color: white;
+}
